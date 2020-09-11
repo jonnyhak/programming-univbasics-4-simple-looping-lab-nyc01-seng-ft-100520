@@ -18,4 +18,8 @@ def output_array(array)
   end
 end
 
-def 
+def return_string_array(arr)
+  arr.map do |ele|
+    ele.to_s
+  end
+end
